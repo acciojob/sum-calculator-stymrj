@@ -15,16 +15,13 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
 
-          <p>Sum Calculator</p>
+<h1>Sum Calculator</h1>
       <input
       onChange={(e)=>{
-        const val = parseInt(e.target.value)
-        setCount(val)
+        setCount(parseInt(e.target.value))
       }}
-      type="number"/>
-
-
-      <h1>{sum}</h1>
+      type="number" />
+      <h3>Sum: {sum}</h3>
     </div>
   )
 }
