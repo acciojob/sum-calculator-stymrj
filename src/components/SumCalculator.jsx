@@ -10,13 +10,13 @@ const SumCalculator = () => {
       },[count])
   return (
     <div>
-        <h1>Sum Calculator</h1>
+        <p>Sum Calculator</p>
       <input
       onChange={(e)=>{
         setCount(parseInt(e.target.value))
       }}
       type="number" />
-      <h3>Sum: {sum}</h3>
+      <p>Sum: {sum}</p>
     </div>
   )
 }
