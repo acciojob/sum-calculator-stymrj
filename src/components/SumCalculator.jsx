@@ -10,7 +10,7 @@ const SumCalculator = () => {
       },[count])
   return (
     <div>
-        <p>Sum Calculator</p>
+        <h1>Sum Calculator</h1>
       <input
       onChange={(e)=>{
         setCount(parseInt(e.target.value))
